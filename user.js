@@ -1,3 +1,5 @@
-module.exports = function checkLogin(login, password) {
-  console.log(login, password);
-};
+module.exports = {
+  checkLogin: function(login, password) {
+        console.log(login, password);
+  }
+}
