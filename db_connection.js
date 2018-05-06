@@ -3,7 +3,8 @@ const mysql = require('mysql');
 const con = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "Speoklatvet1_ML",
+  plugin: auth_socket,
+  authenticationString: "test",
   database: "whats_down",
   insecureAuth : true
 });
